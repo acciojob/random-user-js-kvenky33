@@ -9,10 +9,9 @@ fetchBtn = document.getElementById("getUser");
 const fecthUserDetails = async () => {
   const response = await fetch("https://randomuser.me/api/");
   const data = await response.json();
-  // console.log(data);
+
   user = data.results[0];
   basicDetails(user);
-  // console.log(user);
 };
 const basicDetails = (user) => {
   nameElement.innerHTML = "";
