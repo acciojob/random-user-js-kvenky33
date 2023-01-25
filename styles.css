@@ -1,2 +1,32 @@
-
 /* Your CSS Code here. */
+body {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* width: 100vh; */
+}
+.user-dash {
+  padding: 10px;
+  border: 1px solid #fff;
+  height: 80%;
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.user-dash div {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+}
+img {
+  width: 100px;
+  height: 100px;
+}
+button {
+  padding: 10px 20px;
+}
